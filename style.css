@@ -1,0 +1,83 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    background-image:url("space.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color: #CEF6F5;
+    color:white;
+}
+h2,h3{
+    color:white;
+    font-size: large;
+}
+h1{
+    color:white;
+}
+#nav{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:gray;
+}
+#nav li{
+    float:left;
+}
+#nav li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding: 14px 16px;
+    text-align:center;
+}
+#nav li a:hover{
+    background-color:purple;
+}
+#content{
+    border-style:solid;
+    border-width:4px;
+    border-color:white;
+    margin-top:20px;
+    width:68%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-bottom:20px;
+    background-color:rgba(25, 25, 25,.65);
+}
+table{
+    margin:auto;
+}
+#content ul, #content ol{
+    border:solid white 2px;
+    width:18%;
+    margin:auto;
+}
+#hed{
+    text-align:center;
+}
+#vball{
+    float:right;
+}
+#resume{
+    border-style:solid;
+    border-width:4px;
+    border-color:white;
+    margin-top:20px;
+    width:68%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-bottom:20px;
+    background-color:rgba(25, 25, 25,.65);
+}
+#resume{
+    margin:auto;
+    width:30%;
+    text-align:center;
+}
+#par{
+    text-align:center;
+}
